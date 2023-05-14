@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body{
+ background-color: #272727;
+}
+
+ul li a.nav-link{
+  color: #c9c9c9;
+}
+
+ul li a.nav-link:hover{
+  color:#ffffff;
+}
+
+.navbar-custom {
+  border-bottom:1px solid #6c757d;
+}
+
+/* halaman about */
+.about {
+  color: #4ca9ff;
+  line-height: 60px;
+}
+
+.content-about {
+  width: 90;
+}
+
+.img-profile {
+  border: 1px solid #4ca9ff;
+}
+
+.content-biography h2 {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.content-biography p {
+  color: #6c757d;
+}
+
+.text-info {
+  color:#272727;
+}
+
+.content-social a {
+  color: #ffffff;
+}
+.card-custom {
+  width: 50%;
+  margin-left: 5px;
+  background-color: #454545;
+}
+
+.icon-custom {
+  top: -30px;
+  background-color: #454545;
+}
+
+.card-skill {
+  background-color: #376590;
+}
+
+.portofolio {
+  padding-top:50px;
+}
+
+.portofolio h2 {
+  font-family: "Sora";
+  font-size: 48px;
+}
+
+.portofolio h3 {
+  font-family: "Sora";
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.portofolio p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tombol {
+  background-color: #3d454d;
+  color: #92b4a6;
+}
+
+.tombol:hover {
+  background-color: #cfe4fb;
+  color: #5d5d5d;
+  transition: ease 0.2s;
+}
+
+.border-footer {
+border-top: 1px solid #6c757d;
+}
+
+.footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer a {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* page portofolio */
+.heading-text h2,span {
+  font-size: 48px;
+  font-family: "Sora";
+  color: #ffffff;
+}
+
+/* manual */
+.countainer-custom {
+  background-color: #323443;
+  border-radius: 5px;
+  width: 100%;
+  height: 20pc;
+  overflow: hidden;
+}
+
+.countainer-custom img {
+  transition: ease .5s;
+}
+
+.countainer-custom img:hover {
+  transform: scale(2);
+}
+
+.kotak-arrow {
+  background-color: #c9c9c9;
+  padding: 9px;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  top: 5px;
+  right: 5px;
+}
+
+.img-arrow {
+  rotate: -45deg;
+  color: #ffffff;
+}
+
+.bg-navbar {
+  background-color: #272727;
+}
